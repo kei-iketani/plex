@@ -11,7 +11,7 @@
 #*****************************************************************************************************************************
 # HOUDINI
 
-version: &HOUDINI_VERSION 16.0.633
+version: &HOUDINI_VERSION 18.5.499
 path:    &HOUDINI_PATH !join ["C:/Program Files/Side Effects Software/Houdini ", *HOUDINI_VERSION, /bin/houdini.exe]
 
 start: *HOUDINI_PATH
