@@ -8,14 +8,14 @@
 #*********************************************************************
 
 
-version: &MAYA_VERSION 2018
+version: &MAYA_VERSION 2020
 path:    &MAYA_PATH !join ["C:/Program Files/Autodesk/Maya", *MAYA_VERSION, /bin/maya.exe]
 
 # start command
 start: !join ['start "" "', *MAYA_PATH, '"'] # {} replaced by open_file
 
-renderer:
-renderer_path:
+renderer: &RENDERER Arnold
+renderer_path: ["C:/Program Files/Autodesk/", *RENDERER, "/maya", *MAYA_VERSION, /plug-ins/mtoa.mll"]
 
 
 # Added BEFORE software starts
