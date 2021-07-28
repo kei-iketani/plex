@@ -7,10 +7,10 @@
 #*********************************************************************
 
 
-name: Plex
+name: test
 
 # 3D project path
-path: &PROJECT C:\Users\alexa\Dropbox\plex\project
+path: &PROJECT D:\Learning\plex
 
 
 #*********************************************************************
@@ -18,8 +18,8 @@ path: &PROJECT C:\Users\alexa\Dropbox\plex\project
 start_frame: 1001
 
 resolution:
-  - 1920
-  - 1080
+  - 2000
+  - 1000
 
 fps: 24
 
